@@ -2,11 +2,11 @@
 
 ### Step 1
 
-I share the dataset on my google drive, please download the whole 'CCKS_2019_Task1' folder to your work path.
+I share the dataset on my google drive, please download the whole 'CCKS_2019_Task1' folder to the current working path.
 
 https://drive.google.com/drive/folders/1Z81nYCnHTvqlzQ0RnO-mFI9xRfJvCf5X?usp=sharing
 
-(Note: There are three empty folds(data, data_test and preprocessed_data) under 'CCKS_2019_Task1' folder.)
+(Note: There are three empty folds (data, data_test and preprocessed_data) under 'CCKS_2019_Task1' folder)
 	
 	
 ### Step 2
