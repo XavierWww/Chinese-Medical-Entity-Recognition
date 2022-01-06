@@ -1,6 +1,6 @@
 # Chinese Medical Entity Recognition based on BERT+Bi-LSTM+CRF 
 
-### Step 1
+## Step 1
 
 I share the dataset on my google drive, the link is: 
 
