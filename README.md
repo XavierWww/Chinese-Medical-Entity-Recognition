@@ -1,10 +1,10 @@
-# Chinese Medical Entity Recognition based on BERT+Bi-LSTM+CRF 
+## Chinese Medical Entity Recognition based on BERT+Bi-LSTM+CRF 
 
-## Step 1
+### Step 1
 
 I share the dataset on my google drive, the link is: 
 
-https://drive.google.com/drive/folders/1Z81nYCnHTvqlzQ0RnO-mFI9xRfJvCf5X?usp=sharing
+[https://drive.google.com/drive/folders/1Z81nYCnHTvqlzQ0RnO-mFI9xRfJvCf5X?usp=sharing]
 
 Please download the whole 'CCKS_2019_Task1' folder to your work path.
 
