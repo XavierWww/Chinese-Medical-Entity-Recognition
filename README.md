@@ -24,11 +24,9 @@ Please open 'BERT+Bi_LSTM+CRF.ipynb' to run codes.
 
 You can see I re-process preprocessed data to three '.txt' files for training, validating and testing; 
 
-The three '.txt' files are saved into './CCKS_2019_Task1/processed_data/' by default.
-
-Then you can follow my codes to train and test.
+The three '.txt' files are saved into './CCKS_2019_Task1/processed_data/' by default. And then you can follow my codes to train and test.
 
 
-### Hope you guys can play my codes successfully and enjoy them.
+### Hope you guys can play my codes successfully and enjoy them !
 
 If you have any problems, please feel free to contact me via email: [xavier.wu@connect.ust.hk]. 
