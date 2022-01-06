@@ -2,7 +2,7 @@
 
 ### Step 1
 
-I share the dataset on my google drive. Please download the whole 'CCKS_2019_Task1' folder to your work path.
+I share the dataset on my google drive, please download the whole 'CCKS_2019_Task1' folder to your work path.
 
 https://drive.google.com/drive/folders/1Z81nYCnHTvqlzQ0RnO-mFI9xRfJvCf5X?usp=sharing
 
