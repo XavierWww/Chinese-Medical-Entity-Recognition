@@ -1,4 +1,4 @@
-### Chinese Medical Entity Recognition based on BERT+Bi-LSTM+CRF 
+# Chinese Medical Entity Recognition based on BERT+Bi-LSTM+CRF 
 
 ### Step 1
 
