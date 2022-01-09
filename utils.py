@@ -44,7 +44,7 @@ class NerDataset(Dataset):
                   self.tags_li.append(['[CLS]'] + tag[:MAX_LEN] + ['[SEP]'])
                 else:
                   self.sents.append(['[CLS]'] + word + ['[SEP]'])
-                  self.tags_li.append(['[CLS]'] + tag+ ['[SEP]'])
+                  self.tags_li.append(['[CLS]'] + tag + ['[SEP]'])
                 word, tag = [], []
 
     def __getitem__(self, idx):
