@@ -29,7 +29,7 @@ class Bert_BiLSTM_CRF(nn.Module):
         self.crf = CRF(self.tagset_size, batch_first=True)
     
     def _get_features(self, sentence):
-        with torch.no_grad():
+        with torch.no_grad(): # if you have enough gpu ram, you can remove this line
           embeds, _  = self.bert(sentence)
         enc, _ = self.lstm(embeds)
         enc = self.dropout(enc)
