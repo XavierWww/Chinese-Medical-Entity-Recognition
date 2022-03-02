@@ -23,7 +23,7 @@ from utils import NerDataset, PadBatch, VOCAB, tokenizer, tag2idx, idx2tag
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
-def train(e, model, iterator, optimizer, scheduler, criterion, device):
+def train(e, model, iterator, optimizer, scheduler, device):
     model.train()
     losses = 0.0
     step = 0
@@ -174,12 +174,11 @@ if __name__=="__main__":
     
     warm_up_ratio = 0.1 # Define 10% steps
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps = warm_up_ratio * total_steps, num_training_steps = total_steps)
-    criterion = nn.CrossEntropyLoss(ignore_index=0) 
 
     print('Start Train...,')
     for epoch in range(1, ner.n_epochs+1):
 
-        train(epoch, model, train_iter, optimizer, scheduler, criterion, device)
+        train(epoch, model, train_iter, optimizer, scheduler, device)
         candidate_model, loss, acc = validate(epoch, model, eval_iter, device)
 
         if loss < _best_val_loss and acc > _best_val_acc:
