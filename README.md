@@ -29,4 +29,6 @@ The three '.txt' files are saved into './CCKS_2019_Task1/processed_data/' by def
 
 ### Hope you guys can play my codes successfully and enjoy them !
 
+You also can see a Chinese explanatory article I shared on Zhihu: https://zhuanlan.zhihu.com/p/453350271
+
 If you have any problems, please feel free to contact me via email: [xavier.wu@connect.ust.hk]. 
